@@ -1,0 +1,36 @@
+.card-wrapper {
+    width: 159px;
+    height: 232px;
+    padding-top: 20px;
+
+}
+
+.card-metadata {
+    width: 100%;
+    height: 205px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+
+follower {
+    margin-left: 6px;
+    background-color: black;
+    color: #ffffff;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+
+.card-image {
+    width: 100%;
+    height: 170px;
+}
+
+.card-category {
+    color: #ffffff;
+}

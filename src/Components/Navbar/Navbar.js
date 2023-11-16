@@ -6,7 +6,7 @@ import logo from "./logo.png"
 const Navbar = () => {
     return (
       <div className = "navbar">
-        <img src={logo} alt="Logo"/>
+        <a href="./"><img src={logo} alt="Logo"/></a>
         <Searchbar />
         <Feedback>Give Feedback</Feedback>
       </div>

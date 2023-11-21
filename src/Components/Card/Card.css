@@ -1,8 +1,7 @@
 .card-wrapper {
     width: 159px;
     height: 232px;
-    padding-top: 20px;
-
+    padding: 0px 6px 0px 6px;
 }
 
 .card-metadata {
@@ -33,4 +32,6 @@ follower {
 
 .card-category {
     color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
 }

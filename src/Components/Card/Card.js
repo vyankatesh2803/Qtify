@@ -1,13 +1,17 @@
 import './Card.css'
 
-export default () => {
+export default ({
+    imgSrc,
+    followersCount,
+    label
+}) => {
     return (
         <div className="card-wrapper">
            <div className="card-metadata">
-                <img src="https://source.unsplash.com/featured" alt="Card Image" className="card-image"></img>
-                <follower>100 Follows</follower>
+                <img src={imgSrc} alt="Card Image" className="card-image"></img>
+                <follower>{followersCount} Follows</follower>
             </div>
-            <div className="card-category">New Bollywood</div>
+            <div className="card-category">{label}</div>
         </div>
     )
 }

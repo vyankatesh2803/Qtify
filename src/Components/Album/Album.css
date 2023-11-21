@@ -1,0 +1,39 @@
+.album-container {
+    padding: 0px 32px 0px 32px;
+}
+
+.album-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album-flex p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.album-flex button {
+    width: 90px;
+    height: 30px;
+    color: #34c94b;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:pointer;
+    background-color: inherit;
+    padding: 0;
+    border: none;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    column-gap: 40px;
+}
+
+.album-hr {
+    margin: 35px 0px 0px 0px;
+    border-color: #34c94b;
+}
